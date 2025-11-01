@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M automobile amd m serice</title>
+    <link rel="icon" type="image"
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Lfw-VFSWhFyHdFj-Pda1TxQM2NifMGYwGQ&s">
+    <style>
+        .hehad {
+            color: white;
+            text-align: center;
+            font-size: xx-large;
+            font-weight: 100px;
+            margin-top: 50px;
+        }
+
+        .fixdesign {
+            margin-top: -200px;
+            margin-left: -50px;
+        }
+
+        .hod {
+            background-color: #363636;
+            width: 100%;
+
+        }
+
+        .byd {
+            background-color: #1a1a1a;
+            animation: scrol 0.3s ease forwards;
+            transition: all 0.5s ease;
+            color: white;
+        }
+
+
+        .tra {
+            background-image: url(data:image/jpeg;base64,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);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            text-align: center;
+            background-size: cover;
+            margin-top: 50px;
+        }
+
+
+        .name {
+            margin-left: 50px;
+            font-weight: lighter;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .name1 {
+            margin-left: 50px;
+            font-weight: 100;
+            font-size: 20px;
+        }
+
+        .line-box {
+            display: inline-flex;
+        }
+
+        .new {
+            margin-left: 50px;
+            background-color: rgb(12, 115, 211);
+            width: 50px;
+            text-align: center;
+            color: rgb(203, 203, 216);
+        }
+
+        .type {
+            margin-left: 50px;
+            background-color: #363636;
+            width: 150px;
+            text-align: center;
+            color: rgb(203, 203, 216);
+        }
+
+        .img {
+            margin: 0 auto;
+            width: 350px;
+            margin-left: 75px;
+            margin-top: 25px;
+            transition: all 0.3s ease-in-out;
+            background: linear-gradient(to bottom, #1a1a1a 10%, #444444 50%, #ffffff 90%);
+            border-radius: 15px;
+        }
+
+        .img:hover {
+            transform: scale(1.1);
+        }
+
+        .section {
+            margin-top: 100px;
+        }
+
+        .lastall {
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+
+        .lastoder {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: normal;
+            font-weight: lighter;
+            color: #c4c0c0;
+            transition: all 0.3s ease;
+        }
+
+        .lastoder:hover {
+            color: #ffffff;
+            cursor: url("https://www.bmw.in/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.svg.asset.1756199978277.svg"), auto;
+
+        }
+    </style>
+</head>
+
+<body class="byd">
+    <img class="fixdesign"
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEhASEBIPExITFhoQERAVEg8PEBUQFxUWFhYSFRcYHSggGBoqGxUTIT0hJSkrLi4uFyEzODMsNygtLisBCgoKDg0OGxAQGy0lICUvLS0yLS0tLS0tLy4tLS0tLS0tLS0tLS0tLS0uLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALEBHAMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUDBgcCAf/EADkQAAIBAgEJBgQFBAMBAAAAAAABAgMRBAUSITFBUWFxgQYTIjJCkRQjocEHUnKx8BVi0eEzsvE0/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEFAgQGAwf/xAAzEQEAAgECBAMGBgICAwAAAAAAAQIDBBEFEjFBEyFxBhQyYYHBIkJRobHhkfBy0TM0Q//aAAwDAQACEQMRAD8A5mAAAAAAAAAAAAAAAAAAAHQvw2yNmxliprTK8KN9kb+KfVq3R7yx0WL88q/WZfyQ3osGiAAKPtblPuKObF2qVbxjvUfVL2dub4ESOemIAAPsI3aX8seWfNGHHN57NzQ6O+r1FcNe/wC0d5Toq2g5K9ptabW6vrmLFXDSMdOkeUPpi9AD42SiZiI3lrePxPeTb2ao8ixxU5a7OA4jq51Oeb9o8o9EY9GiAAAAAAAAAAAAAAAAAAAAAAAJ+Q8mSxdenRjoznecvy015pe31aPTFj57RV55bxSs2dpw9GNOMYQSjGCUYxWpRSskXdaxWNoU0zMzvLIZIAPk5JJttJJXbehJLWwOY5byi8TWnU9PlprdTWrq9L6mIgEAAAk4aFlff+xz/E9Rz38OOkfy+iezHDvAwe8Xj8V+nyr2/wAs5VuoAAFblnE5scxa5a+Ef9/5NnT03nmlQ8d1nh4/Bp1t19FGbrjwAAAAAAAAAAAAAAAAAAAAAAAA6h+HuRu4o99NfMrpNX1xo+ldfN7bi00mLlrzT1lWarJzW5Y6Q2w3WoAANY7bZTzIKhF+Kppnwp31dX9EyJGkEAQAHqlDOdtm3kauszxhxzPeei14PoJ1uqrSfhjzn0/T69E45bfd9XiIiNoCAA81JqKbepK7JiN52YZclcdJvbpDWMTWdSTk9uzctiLOleWNnzzV6i2oy2y27/sxGTXAAAAAAAAAAAAAAAAAAAAAAAF12TyN8ZiIwkvlw+ZV3ZieiHV6OV9x7YMXiX27PHPl8Ou/d2JIuoVASgAxYrERpQnUm7RinJvgvuQOXY/Fyr1J1J65O9ty1KK5KyIEcgAAEuhTsuL1nM6/UeNl8ukeT6hwDhvuemibR+K3nP2j6MporwAAVGW8TqprnL7L7+xt6en5pczx/WdNPX1lUG25cAAAAAAAAAAAAAAAAAAAAAAAGB1/sbkb4PDxUlarU+ZV3p+mHRfW5cabFyU+ap1GXnv8oXpstcAAab24yndrDxehWnV564x+/VGI1MgAAGShC74L99hocQ1HhY9o6y6D2d4d71qee0fgp5z857R90w5p9MAAGLE1lTi5PZ9XsRlSvNOzw1Worp8U5LdmsVJuTbetu7LOsREbQ+d5ctst5vbrPm8ksAAAAAAAAAAAAAAAAAAAAAAABtHYHI3xFfvJr5VC0nulV9Eenm6LebWlxc9956Q1tVl5a7R1l1QtlWEoAImVcdHD0p1JeleFfmk9EY+5Ejl9arKcpSk7yk3KT3t6WQPBAABMxEbyyrWbTFa+cym0oZqt78zk9VnnNkm3bt6PrPCtBGi01cffrPq9musQABR5axOdLMWqOvjL/RvafHtHNLkOO63xMng16V6/Of6VpsKAAAAAAAAAAAAAAAAAAAAAAAAe6VOU3GMU3KTUYxWtybskupMRMztCJnaN3Z+z2So4OhCkrOS8VSS9VR+Z/suSRdYcfh0iFPlyeJaZWR7PIAAaH2zyn3tXuovwUte51dT9tXuYjXSAAAZsNC7vu/cquJ6jkr4cdZ6+jrfZbh3i5Z1N48q9PX+oSigd+AAI+OxPdwb26o8z0xU57bNHiOrjS4Jv36R6/wC+bWmyycBMzM7y+BAAAAAAAAAAAAAAAAAAAAAAAA3b8N8jZ85Yqa8NPwUuNRrxS6J25y4G7o8W888tPV5do5IdGLRWgACs7Q5S+GoykvPLwU1/c9vRXfQiRzRv/wB1sxAAASvoW0xyXilZtPSHtp8F8+WuKnW07J0I2Vjks2Wct5vPd9d0elppcNcNOkR+/d6PJsgADXsq4nvJ2XljoXF7WWGCnLXz7uH4vrZ1GbaJ/DXyj7oR7KkAAAAAAAAAAAAAAAAAAAAAAASMBg516lOlTV5Tkorct8nwSu+SMqVm0xEMb2isTMu15NwMMPSp0qflhHNW9vbJ8W7vqXlKRSsRCmvbntNpSTNgAAOcdp8p/E1nmv5dO8Ibnp8U+rXskYioIAAEpGFht6L/ACUnFNR/8a/V3Hspw7aJ1d46+VfvP1SCmdmAAIWVcT3cLLzS0Lgtr/m898FOa3yVXGNb7vg2r8VvKPvLXjfcMAAAAAAAAAAAAAAAAAAAAAAAAHRPw2yNmxliprTO8KPCCfin1atyXEsdHi8ueVfq8m88kN4LBogACi7X5T7ijmRfzKt4reoeqX1t14ETI58QBAAfYRu0v5Y8dRmjFjm8t3h+jtrNRXDXv1+UR1TkrHJ3tNrTaX1zFiripFKR5RG0PpizAPjZO2/kiZiI3lruIqSr1HbV6eEV/PqWOOnLXZwHENXOpzzft0j0fPgJ/wBvuejRHgZr8vuBFAz0cNKaurW1adAHv4Cf9vuBhrUXB2dt+gDGAAAAAAAAAAAAAAAAAWGQclyxdenRjdJ6ZyXpprzS+3No9MWOb3irzy5IpSbO00KUYRjCCUYxSjGK1KKVki7rERG0KaZmZ3l7MkAHyc1FNtpJK7b1JLS2yBzDLWUXia06jvm+WC3QWr7vmyBBIAABKw0LK+1/sc9xLUc9+SOkfy+i+zPDvAwePePxX/av9sxWOnAAFblrE5scxa5a+Ef9/wCTZ09N55pUHHdZ4ePwKz526+n9sGBo5sbvW9PTYjdcgkgfJanyApKcHJpLWwLqnBRSS2AegK3KfmXL7sCGAAAAAAAAAAAAAAAAAdS/D7I3w9Dvpr5le0uMaXpj183Vbi10mLlrvPWVZqsvNbaOkNqNxqAADV+2+U8yCoRfin4p8KexdWvZPeQNJMQAAeqUM529zV1mo8HFM9+y24Lw+dbqopPwx529P0+qcct1831WIiI2gISAeak1FOT1JXZMRMztDzy5a4qTe3SGv071qjlLVrfLZEs6VisbQ+e6rUW1GW2S3dZGTXAPjAhZNo6M57dC5bwJwACuynrjy+4EIAAAAAAAAAAAAAAABd9kcjfGYiMZK9KHzKu5xWqHV6OVz30+LxL7dnhny8lN3YS5hUhKADFi8TGlCdSbtGCzn/hcdhA5bjsXKvUnUn5pu9tiWyK4JWXQgYCAAAS6ELLi9ZzGu1HjZPLpHR9R4Dw73TSxzR+K3nP2j6MppLsAAVGW8TqprnL7L7+xt6fH+aXMcf1nTBX1n7R933C0cyKW3W+ZtuYZgAAD5FWVls0ALgfQK/KmuPJgQQAAAAAAAAAAAAAAAHYOx+Rvg8PFSXzanzKu9Sa0Q6LRzvvLjTYvDp81RqMvPf5Lw2XgAANM7cZTu1h4vRG06v6vTHotPVbjGRqhAAAMmHhd8F+5ocR1HhY+WOs/w6H2c4d71qfEvH4KefrPaPumHNPpYAAxYmsqcXJ7Nm97EZ0rzTs19Vqa6fFOS3b+eyjwcHOTnLffnL+fYsojaNofPMmS2S83t1lYksHitUUU29n7geMI24JvW7v6sDMAAi4Wrnym9mhLlpAlAV+VPR1+wEEAAAAAAAAAAAAAADaewGRviK/ezXy6DUuEqvoj083Rbza0mLntzT0hq6rLyV5Y6y6mW6rAAETK2Pjh6U6ktitFb5vyx9/pcgcuq1JTlKUneUm5Se9vS2QPJAACLTERvLKlLXtFa9Z8vqm0oZqt78zlNVnnNkmz61wvQRotPXFHXv6vZrrAAAUeV8RnzUI6ov3n/r/Jvaem0c0uP47rPFyeDWfKvX1SKFNRil78zYULIBW5RrXeatS18wJeC8kf5tYGcCLj6ubGy1y0dNoGLJfq6fcCeBAyp6Ov2AgAAAAAAAAAAAAAA90aUpyjGKblJqMYrW5N2S92TETM7QiZiI3l2jIGS44ShTpKzaV5y/NUfmfLZySLvFjildlNlyc9t1ierzAAGg9ssp99V7qL8FJtPc6uqT6avcxGvkAAAzYaF3fdq5lTxPUctfDr1nq672W4d4mWdVePKvlHr+v0Sihd8AAI2PxPdwb2vRHmeuKnPbZo8R1fuuCbd+kev9KDDVVF5zTb2c95YuAmZmd5S/6ivyv3QQ+PKK2RfugIDYEyhjVGKVno5AZP6ivyv3QEPEVc+V/ZcAMmExChe6buBI/qK/K/dAR8XiVO1k1a/wBgIwAAAAAAAAAAAAAN3/DfI2fOWKmvDC8KXGo14p9E7c29xvaPFvPPPZpazJtHJHd0Us1eBABV9o8p/DUZSXnl4Kf6n6ui0+xEjmpAEAASvoW0wyZIx1m1ukPfT6e+fLXFTrM7J0I2SRyebLOW82nu+uaTS002GuGnSI/2fq9Hk2QASNdypie8no8sdC473/Nxv4actXDcX1nvGfavw18o+8/VDPZVAAAAAAAAAAAAAAAAAAAAAAACTk/BTxFWnSp+abzVuW+T4JXfQypWb2isMbWisTaXa8nYOGHpU6VNWjBZq3vfJ8W7vmy8pSKV5YU17TaeaUgzYAADm/abKfxNZuL+XDwU9zXql1f0SMRUkAAAkYWG32KTimo3mMVfWXdeyvDuWs6q8dfKv3n6pBTOyAAELKuJ7uFl5paFwW1/zee+GnNb0VPGNb7vg5a/Fb/d2vG+4cAAAAAAAAAAAAAAAAAAAAAAAAOi/htkbMhLFTXiqXhS4U0/FLq1blHiWWixbRzyr9Zl3nkhu5vtICACh7YZT7mjmRfjq3it6h6pfbrwIkc/MQAAfYRu0v5Y8dRmjFjm8t3h+itrNRXDXv1+UR1TkrHJ2tNpmZ7vrmLFXFSKU6RG0PpizAPjdtZMRui1orG8tax2I7ybls1RX9v80ljipyV2fP8AiGrnU55v26R6I56NIAAAAAAAAAAAAAAAAAAAAAAAWOQMlyxlenRV0n4qkl6aa8z/AGXNo9MWOb3irzy5OSs2doo0owjGMUlGKUYxWpRSskuhdxG0bQppned3syQAeak1FOUmkkrtvUktLYHMMs5QeJqzqO9nogt0FqX7vm2YiEQAACVhoWV9r/Y57iWo8S/JHSP5fR/Znh3u+Dxrx+K/8dv89WYrHSgACsy1ic2OYtctf6f9mzp8e8809lBx3W+Hj8GvW3X0/tSG65AAAAAAAAAAAAAAAAAAAAAAAAAOp9gMjfD0O9mrVK9padcaXoj1vndVuLXSYuWvNPWVXqsvNbaOkNpNxqgADVu2+U82KoRfin4qnCF9EerXsuJEjSiAIAD1ShnO2zaamt1Hg4pmOs9FvwXh/vuqis/DHnb0/T6pxy8zu+qxG3lAQAHmpNRTk9SV2TETM7Q88uWuKk3t0hq+IrOcnJ639FsRZ1rFY2h881Oe2fLbJbuxmTwAAAAAAAAAAAAAAAAAAAAAAAF52PyN8ZiIqSvSp2qVdzV/DDq/ome+nxeJeP0eGoyclPm7AXKoCQAw4zExownUnojBZz38lxbsupA5bjcVKtUnUn5pu73JbIrglZdCBhIAAE+iZQhmri9LOY12o8bLvHSPKH1HgXDvc9LEW+K3nP8A19GQ0l0AAKfLeJ1U1zl9l9/Y3NPT80uX4/rd5jT1n5z9o+6pNpzIAAAAAAAAAAAAAAAAAAAAAAAAdE/Cz/jxP64f9ZFhoe6v1vZvBYtEAAUXbX/5Zfqh/wBkRI58YgAALWuaMb/DPo2NL/56f8o/lYHGw+yV+EAAAmGs4/8A5Kn6mWeL4IfPeI/+1k9UczaQAAAAAAAAAAAAAAAAAAP/2Q=="
+        alt="BMW Design">
+
+    <div class="hod">
+        <img style="margin-left: 25px;"
+            src="https://www.bmw-m.com/etc.clientlibs/settings/wcm/designs/bmwcom/base/resources/ci2020/img/logo-bmw-m.svg"
+            alt="">
+        <h3 style="margin-left: 200px; margin-top: -50px; font-size: 100; font: optional; font-weight: lighter;">THE
+            Ultimate <br>Driveing Machine</h3>
+    </div>
+    <h1 class="tra">BMW</h1>
+    <h1 class="hehad">ALL BMW M SERIES AT A GLANCE.</h1>
+    <section class="section">
+        <h1 class="name">XM</h1>
+        <h3 class="name1">BMW XM Label</h3>
+        <div class="line-box">
+            <div class="new">
+                NEW
+            </div>
+            <div class="type">
+                PLUG-IN-HYBRID
+            </div>
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-xm-label-ldi-flyout.png?imwidth=360"
+            alt="XM">
+    </section>
+    <section class="section">
+        <h1 class="name">XM</h1>
+        <h2 class="name1">BMW XM 50e</h2>
+        <div class="line-box">
+            <div class="type">
+                PLUG-IN-HYBRID
+            </div>
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-xm-50e-flyout1.png?imwidth=360"
+            alt="XM 50E">
+    </section>
+    <section class="section">
+        <h1 class="name">X7</h1>
+        <h3 class="name1">BMW X7 M60i</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x7-m60i-flyout-031.png?imwidth=360"
+            alt="X7 M60i">
+    </section>
+    <section class="section">
+        <H1 class="name">X6 M</H1>
+        <h3 class="name1">BMW X6 M Competiton</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x6-m-competition-flyout1.png?imwidth=360"
+            alt="X6 Competition">
+    </section>
+    <section class="section">
+        <h1 class="name">X6</h1>
+        <h3 class="name1">BMW X6 M60i</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x6-m60i-xdrive-flyout.png?imwidth=360"
+            alt="X6">
+    </section>
+    <section class="section">
+        <h1 class="name">X5 M</h1>
+        <h3 class="name1">BMW X5 M Competition</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x5-m-competition-flyout1.png?imwidth=360"
+            alt="X5">
+    </section>
+    <section class="section">
+        <H1 class="name">X5 </H1>
+        <h3 class="name1">BMW X5 M60i</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x5-m60i-xdrive-flyout1.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">X5 M</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW X4 M</span>| BMW X4 M Competiton</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x4-m-competition-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">X5</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW X4 M40i</span>| BMW X4 M50d</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x4-m40i-flyout-neu1.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">X3</h1>
+        <h3 class="name1">BMW X3 M50</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x3-m50-xdrive-flyout2.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">X2</h1>
+        <h3 class="name1">BMW X2 M35i</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x2-m35i-xdrive-flyout-neu.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">X1 </h1>
+        <h3 class="name1">BMW X1 M35i</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-x1-m35i-xdrive-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">iX</h1>
+        <h3 class="name1">BMW iX M70</h3>
+        <div class="line-box">
+            <div class="new">
+                NEW
+            </div>
+            <div class="type">
+                100% ELECTRIC
+            </div>
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-ix-m70-xdrive_flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">7</h1>
+        <h3 class="name1">BMW M760e</h3>
+        <div class="type">
+            PLUG-IN-HYBRID
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m760e-xdrive-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="asection">
+        <h1 class="name">i7</h1>
+        <h3 class="name1">BMW i7 M70</h3>
+        <div class="type">
+            100% ELELCTRIC
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-i7-m70-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section>
+        <h1 class="name">M5</h1>
+        <h3 class="name1">BMW M5 Sedan</h3>
+        <div class="type">
+            PLUG-IN-HYBRID
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m5-limousine-light-2024-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <Section class="section">
+        <H1 class="name">M5</H1>
+        <h3 class="name1">BMW M5 Touring</h3>
+        <div class="type">
+            PLUG-IN-HYBRID
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m5-touring-flyout.png?imwidth=360"
+            alt="">
+    </Section>
+    <section class="section">
+        <h1 class="name">i5</h1>
+        <h3 class="name1">BMW i5 M60 Sedan</h3>
+        <div class="type">
+            100% ELECTRIC
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/02-bmw-i5-m60-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">i5</h1>
+        <h3 class="name1">BMW i5 M60 Touring</h3>
+        <div class="type">
+            100% ELECTRIC
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-i5-m60-touring-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <H1 class="name">M4</H1>
+        <h3 class="name1"><span style="color: #363636;">BMW M4 Coupe</span>| BMW m4 Competiton Coupe</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m4-coupe-lci-flyout1.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M4</h1>
+        <h3 class="name1">BMW M4 CS</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m4-cs-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M4</h1>
+        <h3 class="name1">
+            BMW M4 Competition Covnertible
+        </h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m4-competition-cabrio-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">4</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW M440i Coupe</span> | BMW M440d Coupe</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m440i-coup%C3%A9-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">4</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW M440i Covnertible</span> | BMW M440d Covnertible</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m440i-cabrio-flyout-2.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">4</h1>
+        <h3 class="name1">BMW M440i Gran Coupe</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m440i-xdrive-gran-coupe-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">i4</h1>
+        <h3 class="name1">BMW i4 M60 xDRIVE</h3>
+        <div class="line-box">
+            <div class="new">
+                NEW
+            </div>
+            <DIV class="type">
+                100% ELECTRIC
+            </DIV>
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-i4-m60-xdrive-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M3</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW M3 Sedan</span> | BMW M3 Copetition </h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m3-competition-sedan-m-xdrive-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M3</h1>
+        <h3 class="name1">BMW M3 Competition</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m3-competition-touring-m-xdrive-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M3</h1>
+        <h3 class="name1">BMW M3 CS Touring</h3>
+        <div class="new">
+            NEW
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m3-cs-touring-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">3</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW M340i Sedan </span> | BMW M340d Sedan</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m340i-xdrive-sedan-flyout-new.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">3</h1>
+        <h3 class="name1"><span style="color: #363636;">BMW M340i Tuoring</span> | BMW M340d Touring</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m340i-xdrive-touring-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M2</h1>
+        <h3 class="name1">BMW M2 Coupe</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m2-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M2</h1>
+        <h3 class="name1">BMW M2 CS</h3>
+        <div class="new">
+            NEW
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m2-cs-g87-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">2</h1>
+        <h3 class="name1">BMW M240i Coupe</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m240i-xdrive-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">2</h1>
+        <h3 class="name1">BMW M235 Gran Coupe</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/241009_GranCoupeMPA_02.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">1</h1>
+        <h3 class="name1">BMW M135</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m135i-xdrive-f70-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">Z4</h1>
+        <h3 class="name1">BMW Z4 M40i</h3>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-z4-m40i-lci-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">8</h1>
+        <h3 class="name1">M850i Edittion M Heritage</h3>
+        <div class="new">
+            NEW
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m850i-gran-coupe-edition-m-heritage-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">M4</h1>
+        <h3 class="name1">BMW M4 CS Edition VR46</h3>
+        <div class="new">
+            NEW
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m4-cs-edition-vr46-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">XM</h1>
+        <h3 class="name1">BMW XM by Kith</h3>
+        <div class="type">
+            PLUG-IN-HYBRID
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-xm-by-kith-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="section">
+        <h1 class="name">HP BEV</h1>
+        <h3 class="name1">BMW M3 Sedan</h3>
+        <div class="line-box">
+            <div class="new">
+                NEW
+            </div>
+            <div class="type">
+                100% ELECTRIC
+            </div>
+        </div>
+        <img class="img"
+            src="https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/all-models/model-navigation/bmw-m-hp-bev-prototype-flyout.png?imwidth=360"
+            alt="">
+    </section>
+    <section class="lastall">
+        <h2 style="font-weight: lighter; font: small;">Quicklinks</h2>
+        <hr style="color: #1a1a1a; width: 350px; border: 1px solid #363636;">
+        <h4 class="lastoder">Home</h4>
+        <h4 class="lastoder">Magazine</h4>
+        <h4 class="lastoder">Modals</h4>
+        <h4 class="lastoder">M Motorsport</h4>
+        <h4 class="lastoder">M Driving Experience</h4>
+        <h4 class="lastoder">M Drivers Community</h4>
+    </section>
+    <section class="lastall">
+        <h2 style="font-weight: lighter; font: small;">BMW-M.com</h2>
+        <hr style="color: #1a1a1a; width: 350px; border: 1px solid #363636;">
+        <h4 class="lastoder">About BMW W</h4>
+        <h4 class="lastoder">Newsletter</h4>
+        <h4 class="lastoder">Imprint</h4>
+        <h4 class="lastoder">Privacy Policy</h4>
+        <h4 class="lastoder">Legal Disclaimer</h4>
+        <h4 class="lastoder">EU Battery Regulation</h4>
+        <h4 class="lastoder">Accessiblity</h4>
+        <h4 class="lastoder">Cookies</h4>
+    </section>
+    <section class="lastall">
+        <h2 style="font-weight: lighter; font: small;">Visit us on</h2>
+        <hr style="color: #1a1a1a; width: 350px; border: 1px solid #363636;">
+        <h4 class="lastoder" onclick="document.location='https://www.instagram.com/bmwm/'">Instagram</h4>
+        <h4 class="lastoder" onclick="document.location='https://www.facebook.com/BMW.M/'">Facebook</h4>
+        <h4 class="lastoder" onclick="document.location='about:blank'">Tik Tok</h4>
+        <h4 class="lastoder" onclick="document.location='https://www.youtube.com/user/MPowerDOTcom'">You Tube</h4>
+        <h4 class="lastoder" onclick="document.location='https://x.com/bmwmotorsport'">X Motorsport</h4>
+    </section>
+    <section class="lastall">
+        <h2 style="font-weight: lighter; font: small;">More BMW Website</h2>
+        <hr style="color: #1a1a1a; width: 350px; border: 1px solid #363636;">
+        <h4 class="lastoder" onclick="document.location='https://www.bmw.com/en/index.html'">International Website</h4>
+        <h4 class="lastoder" onclick="document.location='http://127.0.0.1:5500/BMW%20LIfestyle/lifestyle.bmw.com.html'">Bmw.lifestye</h4>
+    </section>
+    <footer style="text-align: center; margin-top: 100px; font-size: small; font-weight: lighter; cursor: pointer;">
+        <p>
+            &COPY;BMW M Gmbh 2025 <br>
+            Design by || RABARI VISHAN⚡
+        </p>
+    </footer>
+</body>
+
+</html>
